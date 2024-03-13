@@ -24,7 +24,7 @@ const User = ({ login, avatar_url, followers, following, location, created_at, n
         </div>
         <div className="mx-4 mb-2">
           
-          <Link to={`/repos/${login}`} className="text-white font-bold" >Veja os projetos</Link>
+          <Link to={`/repos/${login}`} className="text-white font-bold bg-blue-600 px-4 py-2 rounded hover:bg-blue-700">Veja os projetos</Link>
         </div>
       </div>
     </div>
